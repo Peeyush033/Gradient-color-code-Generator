@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+  background-image:linear-gradient(to right, #301762,#e25337);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+section{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+}
+.copycode{
+    
+  padding-inline: 10px;
+  padding-block: 13px;
+ display: flex;
+ width: 100%;
+justify-content: center;
+text-align: center;
+background-color: #0000003c;
+border-left: 2px solid white;
+border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h2{
+    font-size: 16px;
+    padding-block: 16px;
+}
+
+button{
+    margin-inline: 7px;
+    padding: 10px 8px;
+    border-radius: 50vw;
+    min-width: 80px;
+    border: none;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
+#mybutton{
+    background-color:#301762;
+    color: white;
+}
+#mybutton2{
+    background-color:#e25337;
+    color: white;
+}
