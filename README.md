@@ -1,2 +1,2 @@
 # Gradient-color-code-Generator
-this project wil be helpfull for developer.
+this project wil be helpfull for developer. <br> Grerating color code .
